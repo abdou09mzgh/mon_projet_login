@@ -40,7 +40,7 @@ session_start(); // Start the session
     </div>
     <div class="login-container">
         <h2>sign-up</h2>
-        <form id="signupForm" action="signup_process.php" method="POST">
+        <form id="signupForm" action="../signup_process.php" method="POST">
             <div class="form-group">
                 <label for="username">Nom d'utilisateur:</label>
                 <input type="text" id="username" name="username" required>
